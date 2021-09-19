@@ -185,17 +185,26 @@ body {
   .dropdown-invisible-open {
     height: 350px;
   }
+  html {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 375px) {
   .dropdown-invisible-open {
-    height: 370px;
+    height: 400px;
   }
 }
 
 @media (max-width: 320px) {
   .dropdown-invisible-open {
     height: 470px;
+  }
+}
+
+@media (max-width: 300px) {
+  .dropdown-invisible-open {
+    height: 500px;
   }
 }
 
