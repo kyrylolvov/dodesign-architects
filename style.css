@@ -259,7 +259,16 @@ body {
 
 @media (max-width: 375px) {
   .dropdown-invisible-open {
-    height: 550px;
+    height: 570px;
+  }
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .dropdown-invisible-open {
+    height: 640px;
   }
 }
 
