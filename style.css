@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: Avenir Next Cyr;
   margin: 0;
@@ -236,6 +237,57 @@ body {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .dropdown-invisible-open {
+    height: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .dropdown-invisible-open {
+    height: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .dropdown-invisible-open {
+    height: 370px;
+  }
+}
+
+@media (max-width: 320px) {
+  .dropdown-invisible-open {
+    height: 450px;
+  }
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+  .dropdown-invisible-open {
+    height: 300px;
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 30px;
+  }
+  .dropdown-invisible-open {
+    height: 320px;
+  }
 }
 
 .loader-ellips__dot:nth-child(1) {
@@ -634,8 +686,13 @@ footer {
   width: 100vw;
   height: 100vh;
   position: relative;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.slider-1 {
+  background-image: url(/Images/Projects/PRDD073/2\главная.jpg);
 }
 
 .slider-slide {
