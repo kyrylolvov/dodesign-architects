@@ -320,6 +320,16 @@ main {
   background-position: 50% 50%;
   width: 25vw;
   height: 14vw;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .projects-grid {

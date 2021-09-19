@@ -414,6 +414,26 @@ main {
   background-position: 50% 50%;
   width: 25vw;
   height: 14vw;
+  -webkit-animation: fadein 3s;
+          animation: fadein 3s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .projects-grid {
