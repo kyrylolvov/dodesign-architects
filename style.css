@@ -341,7 +341,7 @@ main {
 }
 
 .our-services {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .about-us-sectiion {
@@ -405,6 +405,7 @@ main {
 
 .latest-projects {
   width: 100vw;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -639,16 +640,31 @@ footer {
 .slider-1 {
   background: url(/Images/design4.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .slider-2 {
   background: url(/Images/design8.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .slider-3 {
   background: url(/Images/design6.jpg);
   background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slider-4 {
+  background: url(/Images/design6.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slider-3 {
+  background: url(/Images/design6.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .slider-slide {

@@ -248,7 +248,7 @@ main {
 }
 
 .our-services {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .about-us-sectiion {
@@ -311,6 +311,7 @@ main {
 
 .latest-projects {
   width: 100vw;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -474,17 +475,35 @@ footer {
   background-repeat: no-repeat;
 }
 .slider-1 {
-  background: url(/Images/design4.jpg);
+  background-image: url(/Images/Projects/PRDD073/2\ главная.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 }
+
 .slider-2 {
-  background: url(/Images/design8.jpg);
+  background-image: url(/Images/Projects/PRDD075/1\ главная.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 }
+
 .slider-3 {
-  background: url(/Images/design6.jpg);
+  background-image: url(/Images/Projects/PRDD076/главная.jpg);
   background-size: cover;
+  background-position: 50% 50%;
 }
+
+.slider-4 {
+  background-image: url(/Images/Projects/PRDD077/главная.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slider-5 {
+  background-image: url(/Images/Projects/PRDD078/главная.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
 .slider-slide {
   padding: 0;
   font-size: 2.5rem;
