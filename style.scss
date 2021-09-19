@@ -146,6 +146,14 @@ body {
 .mobile-menu-social .footer-social-media .menu-point {
   margin: 0 10px 0 0;
 }
+
+@media (max-width: 525px) {
+  .mobile-menu-social .footer-social-media {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .burger-menu {
   display: none;
 }
