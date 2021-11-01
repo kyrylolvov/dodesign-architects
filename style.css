@@ -837,6 +837,7 @@ input, textarea {
   color: white;
   background-color: #181818;
   border: none;
+  border-radius: 0;
   border-bottom: 1px solid white;
 }
 
@@ -847,6 +848,7 @@ input, textarea {
   color: white;
   background-color: #181818;
   border: none;
+  border-radius: 0;
   border-bottom: 1px solid white;
 }
 
