@@ -794,4 +794,11 @@ input, textarea{
   .header-menu-sticky {
     padding: 20px 20px;
   }
+  .contact-section{
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .contact-section-right{
+    margin: 0;
+  }
 }
