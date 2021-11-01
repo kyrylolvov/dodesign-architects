@@ -549,7 +549,7 @@ footer {
   width: 80vw;
 }
 .about-us-read-more-paragraph {
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5;
@@ -563,6 +563,10 @@ footer {
 }
 .projects-page {
   margin-top: 100px;
+}
+.about-us__li{
+  margin-bottom: 10px !important;
+  max-width: 500px;
 }
 
 // Project Page
@@ -756,7 +760,7 @@ input, textarea{
   }
   .algorithm__item-num::after{
     top: calc(50% - 12.5px);
-    right: -14px;
+    right: -15px;
     left: auto;
   }
   .algorithm__items-wrap{
