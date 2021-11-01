@@ -885,6 +885,9 @@ input, textarea {
   .firsttogo-item {
     display: none;
   }
+  .mobile-menu .mobile-menu-social .footer-social-media .menu-point .nav-link {
+    font-size: 0.6rem;
+  }
 }
 
 @media (max-width: 900px) {
