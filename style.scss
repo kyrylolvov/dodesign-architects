@@ -181,12 +181,6 @@ body {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  html {
-    font-size: 12px;
-  }
-}
-
 @media (max-width: 425px) {
   html {
     font-size: 14px;
@@ -691,6 +685,13 @@ input, textarea{
   color: #181818;
 }
 
+// Prices page
+
+.dropdown-invisible-open .dropdown-element{
+  border: none;
+  margin: 40px 0 0 30px;
+}
+
 @media (max-width: 1024px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr 1fr;
@@ -739,6 +740,15 @@ input, textarea{
   }
   .contact-section-right{
     margin: 0;
+  }
+  .visible-text .dropdown-element{
+    margin-left: 0;
+    padding: 0 0 20px 0;
+  }
+  .dropdown-text-arrow div {
+    flex-direction: column;
+    width: auto;
+    text-align: left;
   }
 }
 
