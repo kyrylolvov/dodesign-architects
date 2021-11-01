@@ -978,5 +978,8 @@ input, textarea {
   .header-menu-sticky {
     padding: 20px 20px;
   }
+  .mobile-menu .mobile-menu-social .footer-social-media .menu-point .nav-link {
+    font-size: 0.9rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
