@@ -741,6 +741,12 @@ input, textarea{
   font-size: 14px;
 }
 
+.order-form-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+}
+
 @media (max-width: 1100px) {
   .algorithm__item{
     align-items: center;

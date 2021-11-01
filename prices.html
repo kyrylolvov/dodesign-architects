@@ -420,7 +420,6 @@
             <div style="text-align: left; margin-top: 50px;" class="prices-title">Алгоритм сотрудничества и оплаты выглядит следующим образом:</div>
             <div style="text-align: left; font-size: 12px; margin-top: 10px;" class="prices-subtitle">* При предоплате в полном объеме скидка 10%</div>
           </div>
-          </div>
           <div class="algorithm">
             <div class="algorithm__items-wrap">
               <div class="algorithm__item">
@@ -440,6 +439,34 @@
                 <div class="algorithm__item-text">Выдача строительных чертежей. Оплата 20%</div>
               </div>
             </div>
+          </div>
+          </div>
+          <div class="order-form-section">
+            <div class="page__section-title-wrap">
+              <div class="page__section-title">Форма заказа:</div>
+              <div class="page__section-subtitle" style="margin-bottom: 20px;">* Поля обязательные для заполнения</div>
+            <form class="form feedback-form" action="contact-form-handler.php" method="post">
+              <div class="form__group">
+                  <div class="form__label">Имя *</div>
+                  <input class="form__input-text" required type="text" name="name" value="" maxlength="100" placeholder="Введите ваш имя" />
+              </div>
+              <div class="form__group">
+                <div class="form__label">Email *</div>
+                <input class="form__input-text" required type="email" name="email" value="" maxlength="100" placeholder="Введите ваш email" />
+            </div>
+            <div class="form__group">
+                <div class="form__label">Телефон *</div>
+                <input class="form__input-text" required type="tel" name="phone" value="" maxlength="100" placeholder="Введите ваш телефон" />
+            </div>
+            <div class="form__group">
+                <div class="form__label" style="margin-bottom: 7px;">Комментарий</div>
+                <textarea style="height: 80px;" class="form__textarea" name="message" maxlength="5000" placeholder="Ваш комментарий" rows="2"></textarea>
+            </div>
+            <div class="form__group feedback-form__submit-group">
+              <button type="submit" class="form-submit-button" href="#">Отправить</button>
+          </div>
+            </form>
+          </div>
           </div>
         </div>
       </main>
