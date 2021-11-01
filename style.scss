@@ -189,6 +189,12 @@ body {
   }
 }
 
+@media (max-width: 1000px) {
+  .dropdown-invisible-open {
+    height: 250px;
+  }
+}
+
 @media (max-width: 425px) {
   .dropdown-invisible-open {
     height: 350px;
