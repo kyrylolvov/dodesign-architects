@@ -1,25 +1,27 @@
 <?php
-    $name = $_Post['name']
-    $visitorEmail = $_Post['email']
-    $phone = $_Post['phone']
-    $message: $_Post['message']
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
+$visitor_phone = $_POST['phone'];
+$message = $_POST['message'];
 
-    $emailFrom = 'lvovkirill2015@gmail.com'
+$email_from = 'kyrylolvov@icloud.com';
 
-    $emailSubject = 'New Form Submission'
+$email_subject = "Новая заявка";
 
-    $emailBody = "Имя: $name.\n".
-                 "Email: $visitorEmail\n".
-                 "Телефон: $phone.\n".
-                 "Сообщкеик: $message.\n";
-    
-    $to = 'lvovkirill2015@gmail.com'
+$email_body = "Имя: $name.\n".
+                "Почта: $visitor_email.\n".
+                "Телефон: $visitor_phone.\n".
+                 "Сообщение: $message.\n";
 
-    $headers = "From: $emailFrom \r\n"
+$to = "welcome.do.design@gmail.com";
 
-    $headers .= "Reply-to $visitorEmail \r\n"
+$headers .= "From: $email_from \r\n";
 
-    mail($to,$emailSubject,$emailBody,$headers)
+$headers .= "Reply-To: $visitor_email \r\n";
 
-    header("Location: contact.html")
+mail($to,$email_subject,$email_body,$headers);
+
+header("Location: index.html");
+
+
 ?>

@@ -697,10 +697,18 @@ input, textarea{
   max-width: 220px;
   text-transform: uppercase;
   text-decoration: none !important;
+  background-color: transparent;
   text-align: center;
   font-size: 12px;
   color: white;
   border: 1px solid white;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.form-submit-button:hover{
+  background-color: white;
+  color: #181818;
 }
 
 @media (max-width: 1024px) {
