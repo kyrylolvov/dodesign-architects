@@ -447,6 +447,30 @@
               <div class="page__section-subtitle" style="margin-bottom: 20px;">* Поля обязательные для заполнения</div>
             <form class="form feedback-form" action="contact-form-handler.php" method="post">
               <div class="form__group">
+                <div class="form__label">Услуга *</div>
+                <select data-placeholder="Выберите услугу:" name="service">
+                  <option></option>
+                  <option value="Полный проект" data-price="20">Полный проект</option>
+                  <option value="3D визуализация" data-price="14">3D визуализация</option>
+                  <option value="Строительные чертежи" data-price="10">Строительные чертежи</option>
+                  <option value="Реализация интерьера без участия заказчика" data-price="40">Реализация интерьера без участия заказчика</option>
+                </select>
+                <span class="select-container" data-select-id="2" dir="ltr">
+                  <span class="selection">
+                    <span class="selection-single" role="combobox" aria-haspopup="true" aria-expanded="false"
+                    tabindex="0" aria-disabled="false">
+                  <span class="selection-rendered" role="textbox">
+                    <span class="selection-placeholder">Выберите услугу:</span>
+                  </span>
+                </span>
+                  </span>
+                </span>
+            </div>
+              <div class="form__group">
+                <div class="form__label">Площадь помещения *</div>
+                <input class="form__input-text" required type="text" name="area" value="" maxlength="100" placeholder="Введите кол-во квадратных метров" />
+            </div>
+              <div class="form__group">
                   <div class="form__label">Имя *</div>
                   <input class="form__input-text" required type="text" name="name" value="" maxlength="100" placeholder="Введите ваш имя" />
               </div>
@@ -462,9 +486,9 @@
                 <div class="form__label" style="margin-bottom: 7px;">Комментарий</div>
                 <textarea style="height: 80px;" class="form__textarea" name="message" maxlength="5000" placeholder="Ваш комментарий" rows="2"></textarea>
             </div>
-            <div class="form__group feedback-form__submit-group">
-              <button type="submit" class="form-submit-button" href="#">Отправить</button>
-          </div>
+            <!-- <div class="form__group feedback-form__submit-group">
+              <button type="submit" class="form-submit-button" href="#">Заказать проект</button>
+          </div> -->
             </form>
           </div>
           </div>

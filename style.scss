@@ -643,6 +643,11 @@ input, textarea{
   outline: none;
 }
 
+input::placeholder, textarea::placeholder{
+  color: #89919e;
+  opacity: 0.5;
+}
+
 .form__group{
   margin-bottom: 35px;
 }
@@ -744,7 +749,49 @@ input, textarea{
 .order-form-section{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 100px;
+  margin-top: 120px;
+}
+
+select{
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: insert(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+  word-wrap: normal;
+  text-transform: none;
+}
+
+.select-container{
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.selection-single{
+  cursor: pointer;
+  display: block;
+  height: 28px;
+}
+
+.selection-rendered{
+  height: 40px;
+  padding-left: 0;
+  line-height: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.selection-placeholder{
+  font-size: 14px;
+  opacity: 0.5;
+  color: #89919e;
 }
 
 @media (max-width: 1100px) {
@@ -879,5 +926,8 @@ input, textarea{
   }
   .mobile-menu .mobile-menu-social .footer-social-media .menu-point .nav-link{
     font-size: 0.9rem;
+  }
+  .order-form-section{
+    grid-template-columns: 1fr;
   }
 }
